@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8F0BED181FC5410D0094C1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED171FC5410D0094C1CD /* AppDelegate.m */; };
-		8F0BED1B1FC5410D0094C1CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED1A1FC5410D0094C1CD /* ViewController.m */; };
 		8F0BED1E1FC5410D0094C1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED1C1FC5410D0094C1CD /* Main.storyboard */; };
 		8F0BED201FC5410D0094C1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED1F1FC5410D0094C1CD /* Assets.xcassets */; };
 		8F0BED231FC5410D0094C1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED211FC5410D0094C1CD /* LaunchScreen.storyboard */; };
 		8F0BED261FC5410D0094C1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED251FC5410D0094C1CD /* main.m */; };
 		8F0BED301FC5410D0094C1CD /* ___tabbar____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED2F1FC5410D0094C1CD /* ___tabbar____Tests.m */; };
 		8F0BED3B1FC5410D0094C1CD /* ___tabbar____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED3A1FC5410D0094C1CD /* ___tabbar____UITests.m */; };
+		8F0BED4A1FC541290094C1CD /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED491FC541290094C1CD /* TabBarViewController.m */; };
+		8F0BED4D1FC546890094C1CD /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED4C1FC546890094C1CD /* OneViewController.m */; };
+		8F0BED501FC546940094C1CD /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED4F1FC546940094C1CD /* TwoViewController.m */; };
+		8F0BED531FC5469D0094C1CD /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED521FC5469D0094C1CD /* ThreeViewController.m */; };
+		8F0BED561FC546A50094C1CD /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED551FC546A50094C1CD /* FourViewController.m */; };
+		8F0BED591FC546AF0094C1CD /* MiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED581FC546AF0094C1CD /* MiddleViewController.m */; };
+		8F0BED611FC54A490094C1CD /* tabBar_publish_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED601FC54A490094C1CD /* tabBar_publish_icon.png */; };
+		8F0BED641FC54A7E0094C1CD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED621FC54A7E0094C1CD /* UIView+Extension.m */; };
+		8F0BED671FC54B650094C1CD /* tabBar_icon_mine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED651FC54B640094C1CD /* tabBar_icon_mine@3x.png */; };
+		8F0BED681FC54B650094C1CD /* tabBar_icon_mine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED661FC54B640094C1CD /* tabBar_icon_mine@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,6 @@
 		8F0BED131FC5410D0094C1CD /* 自定义tabbar中间按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义tabbar中间按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0BED161FC5410D0094C1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F0BED171FC5410D0094C1CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F0BED191FC5410D0094C1CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F0BED1A1FC5410D0094C1CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F0BED1D1FC5410D0094C1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F0BED1F1FC5410D0094C1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F0BED221FC5410D0094C1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,23 @@
 		8F0BED361FC5410D0094C1CD /* 自定义tabbar中间按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义tabbar中间按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0BED3A1FC5410D0094C1CD /* ___tabbar____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tabbar____UITests.m"; sourceTree = "<group>"; };
 		8F0BED3C1FC5410D0094C1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0BED481FC541290094C1CD /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		8F0BED491FC541290094C1CD /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		8F0BED4B1FC546890094C1CD /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		8F0BED4C1FC546890094C1CD /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		8F0BED4E1FC546940094C1CD /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		8F0BED4F1FC546940094C1CD /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		8F0BED511FC5469D0094C1CD /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		8F0BED521FC5469D0094C1CD /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		8F0BED541FC546A50094C1CD /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		8F0BED551FC546A50094C1CD /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		8F0BED571FC546AF0094C1CD /* MiddleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleViewController.h; sourceTree = "<group>"; };
+		8F0BED581FC546AF0094C1CD /* MiddleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddleViewController.m; sourceTree = "<group>"; };
+		8F0BED601FC54A490094C1CD /* tabBar_publish_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar_publish_icon.png; sourceTree = "<group>"; };
+		8F0BED621FC54A7E0094C1CD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8F0BED631FC54A7E0094C1CD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8F0BED651FC54B640094C1CD /* tabBar_icon_mine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_icon_mine@3x.png"; sourceTree = "<group>"; };
+		8F0BED661FC54B640094C1CD /* tabBar_icon_mine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_icon_mine@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +127,23 @@
 			children = (
 				8F0BED161FC5410D0094C1CD /* AppDelegate.h */,
 				8F0BED171FC5410D0094C1CD /* AppDelegate.m */,
-				8F0BED191FC5410D0094C1CD /* ViewController.h */,
-				8F0BED1A1FC5410D0094C1CD /* ViewController.m */,
+				8F0BED481FC541290094C1CD /* TabBarViewController.h */,
+				8F0BED491FC541290094C1CD /* TabBarViewController.m */,
+				8F0BED601FC54A490094C1CD /* tabBar_publish_icon.png */,
+				8F0BED661FC54B640094C1CD /* tabBar_icon_mine@2x.png */,
+				8F0BED651FC54B640094C1CD /* tabBar_icon_mine@3x.png */,
+				8F0BED631FC54A7E0094C1CD /* UIView+Extension.h */,
+				8F0BED621FC54A7E0094C1CD /* UIView+Extension.m */,
+				8F0BED4B1FC546890094C1CD /* OneViewController.h */,
+				8F0BED4C1FC546890094C1CD /* OneViewController.m */,
+				8F0BED4E1FC546940094C1CD /* TwoViewController.h */,
+				8F0BED4F1FC546940094C1CD /* TwoViewController.m */,
+				8F0BED511FC5469D0094C1CD /* ThreeViewController.h */,
+				8F0BED521FC5469D0094C1CD /* ThreeViewController.m */,
+				8F0BED541FC546A50094C1CD /* FourViewController.h */,
+				8F0BED551FC546A50094C1CD /* FourViewController.m */,
+				8F0BED571FC546AF0094C1CD /* MiddleViewController.h */,
+				8F0BED581FC546AF0094C1CD /* MiddleViewController.m */,
 				8F0BED1C1FC5410D0094C1CD /* Main.storyboard */,
 				8F0BED1F1FC5410D0094C1CD /* Assets.xcassets */,
 				8F0BED211FC5410D0094C1CD /* LaunchScreen.storyboard */,
@@ -240,7 +279,10 @@
 			files = (
 				8F0BED231FC5410D0094C1CD /* LaunchScreen.storyboard in Resources */,
 				8F0BED201FC5410D0094C1CD /* Assets.xcassets in Resources */,
+				8F0BED611FC54A490094C1CD /* tabBar_publish_icon.png in Resources */,
 				8F0BED1E1FC5410D0094C1CD /* Main.storyboard in Resources */,
+				8F0BED681FC54B650094C1CD /* tabBar_icon_mine@2x.png in Resources */,
+				8F0BED671FC54B650094C1CD /* tabBar_icon_mine@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0BED1B1FC5410D0094C1CD /* ViewController.m in Sources */,
+				8F0BED641FC54A7E0094C1CD /* UIView+Extension.m in Sources */,
+				8F0BED561FC546A50094C1CD /* FourViewController.m in Sources */,
+				8F0BED4A1FC541290094C1CD /* TabBarViewController.m in Sources */,
 				8F0BED261FC5410D0094C1CD /* main.m in Sources */,
 				8F0BED181FC5410D0094C1CD /* AppDelegate.m in Sources */,
+				8F0BED531FC5469D0094C1CD /* ThreeViewController.m in Sources */,
+				8F0BED501FC546940094C1CD /* TwoViewController.m in Sources */,
+				8F0BED4D1FC546890094C1CD /* OneViewController.m in Sources */,
+				8F0BED591FC546AF0094C1CD /* MiddleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

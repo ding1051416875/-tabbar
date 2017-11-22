@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  自定义tabbar中间按钮
 //
 //  Created by 丁晓雷 on 2017/11/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OneViewController : UIViewController
 
 @end
-
