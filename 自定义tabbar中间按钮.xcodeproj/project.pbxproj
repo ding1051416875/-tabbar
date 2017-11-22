@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0BED181FC5410D0094C1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED171FC5410D0094C1CD /* AppDelegate.m */; };
+		8F0BED1B1FC5410D0094C1CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED1A1FC5410D0094C1CD /* ViewController.m */; };
+		8F0BED1E1FC5410D0094C1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED1C1FC5410D0094C1CD /* Main.storyboard */; };
+		8F0BED201FC5410D0094C1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED1F1FC5410D0094C1CD /* Assets.xcassets */; };
+		8F0BED231FC5410D0094C1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BED211FC5410D0094C1CD /* LaunchScreen.storyboard */; };
+		8F0BED261FC5410D0094C1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED251FC5410D0094C1CD /* main.m */; };
+		8F0BED301FC5410D0094C1CD /* ___tabbar____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED2F1FC5410D0094C1CD /* ___tabbar____Tests.m */; };
+		8F0BED3B1FC5410D0094C1CD /* ___tabbar____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BED3A1FC5410D0094C1CD /* ___tabbar____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0BED2C1FC5410D0094C1CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0BED0B1FC5410D0094C1CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0BED121FC5410D0094C1CD;
+			remoteInfo = "自定义tabbar中间按钮";
+		};
+		8F0BED371FC5410D0094C1CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0BED0B1FC5410D0094C1CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0BED121FC5410D0094C1CD;
+			remoteInfo = "自定义tabbar中间按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0BED131FC5410D0094C1CD /* 自定义tabbar中间按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义tabbar中间按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0BED161FC5410D0094C1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F0BED171FC5410D0094C1CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F0BED191FC5410D0094C1CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F0BED1A1FC5410D0094C1CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F0BED1D1FC5410D0094C1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0BED1F1FC5410D0094C1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0BED221FC5410D0094C1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F0BED241FC5410D0094C1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0BED251FC5410D0094C1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F0BED2B1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义tabbar中间按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0BED2F1FC5410D0094C1CD /* ___tabbar____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tabbar____Tests.m"; sourceTree = "<group>"; };
+		8F0BED311FC5410D0094C1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0BED361FC5410D0094C1CD /* 自定义tabbar中间按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义tabbar中间按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0BED3A1FC5410D0094C1CD /* ___tabbar____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tabbar____UITests.m"; sourceTree = "<group>"; };
+		8F0BED3C1FC5410D0094C1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0BED101FC5410D0094C1CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0BED281FC5410D0094C1CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0BED331FC5410D0094C1CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0BED0A1FC5410D0094C1CD = {
+			isa = PBXGroup;
+			children = (
+				8F0BED151FC5410D0094C1CD /* 自定义tabbar中间按钮 */,
+				8F0BED2E1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests */,
+				8F0BED391FC5410D0094C1CD /* 自定义tabbar中间按钮UITests */,
+				8F0BED141FC5410D0094C1CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0BED141FC5410D0094C1CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0BED131FC5410D0094C1CD /* 自定义tabbar中间按钮.app */,
+				8F0BED2B1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests.xctest */,
+				8F0BED361FC5410D0094C1CD /* 自定义tabbar中间按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0BED151FC5410D0094C1CD /* 自定义tabbar中间按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				8F0BED161FC5410D0094C1CD /* AppDelegate.h */,
+				8F0BED171FC5410D0094C1CD /* AppDelegate.m */,
+				8F0BED191FC5410D0094C1CD /* ViewController.h */,
+				8F0BED1A1FC5410D0094C1CD /* ViewController.m */,
+				8F0BED1C1FC5410D0094C1CD /* Main.storyboard */,
+				8F0BED1F1FC5410D0094C1CD /* Assets.xcassets */,
+				8F0BED211FC5410D0094C1CD /* LaunchScreen.storyboard */,
+				8F0BED241FC5410D0094C1CD /* Info.plist */,
+				8F0BED251FC5410D0094C1CD /* main.m */,
+			);
+			path = "自定义tabbar中间按钮";
+			sourceTree = "<group>";
+		};
+		8F0BED2E1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0BED2F1FC5410D0094C1CD /* ___tabbar____Tests.m */,
+				8F0BED311FC5410D0094C1CD /* Info.plist */,
+			);
+			path = "自定义tabbar中间按钮Tests";
+			sourceTree = "<group>";
+		};
+		8F0BED391FC5410D0094C1CD /* 自定义tabbar中间按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0BED3A1FC5410D0094C1CD /* ___tabbar____UITests.m */,
+				8F0BED3C1FC5410D0094C1CD /* Info.plist */,
+			);
+			path = "自定义tabbar中间按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0BED121FC5410D0094C1CD /* 自定义tabbar中间按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0BED3F1FC5410D0094C1CD /* Build configuration list for PBXNativeTarget "自定义tabbar中间按钮" */;
+			buildPhases = (
+				8F0BED0F1FC5410D0094C1CD /* Sources */,
+				8F0BED101FC5410D0094C1CD /* Frameworks */,
+				8F0BED111FC5410D0094C1CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义tabbar中间按钮";
+			productName = "自定义tabbar中间按钮";
+			productReference = 8F0BED131FC5410D0094C1CD /* 自定义tabbar中间按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0BED2A1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0BED421FC5410D0094C1CD /* Build configuration list for PBXNativeTarget "自定义tabbar中间按钮Tests" */;
+			buildPhases = (
+				8F0BED271FC5410D0094C1CD /* Sources */,
+				8F0BED281FC5410D0094C1CD /* Frameworks */,
+				8F0BED291FC5410D0094C1CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0BED2D1FC5410D0094C1CD /* PBXTargetDependency */,
+			);
+			name = "自定义tabbar中间按钮Tests";
+			productName = "自定义tabbar中间按钮Tests";
+			productReference = 8F0BED2B1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F0BED351FC5410D0094C1CD /* 自定义tabbar中间按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0BED451FC5410D0094C1CD /* Build configuration list for PBXNativeTarget "自定义tabbar中间按钮UITests" */;
+			buildPhases = (
+				8F0BED321FC5410D0094C1CD /* Sources */,
+				8F0BED331FC5410D0094C1CD /* Frameworks */,
+				8F0BED341FC5410D0094C1CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0BED381FC5410D0094C1CD /* PBXTargetDependency */,
+			);
+			name = "自定义tabbar中间按钮UITests";
+			productName = "自定义tabbar中间按钮UITests";
+			productReference = 8F0BED361FC5410D0094C1CD /* 自定义tabbar中间按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0BED0B1FC5410D0094C1CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "丁晓雷";
+				TargetAttributes = {
+					8F0BED121FC5410D0094C1CD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8F0BED2A1FC5410D0094C1CD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F0BED121FC5410D0094C1CD;
+					};
+					8F0BED351FC5410D0094C1CD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F0BED121FC5410D0094C1CD;
+					};
+				};
+			};
+			buildConfigurationList = 8F0BED0E1FC5410D0094C1CD /* Build configuration list for PBXProject "自定义tabbar中间按钮" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0BED0A1FC5410D0094C1CD;
+			productRefGroup = 8F0BED141FC5410D0094C1CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0BED121FC5410D0094C1CD /* 自定义tabbar中间按钮 */,
+				8F0BED2A1FC5410D0094C1CD /* 自定义tabbar中间按钮Tests */,
+				8F0BED351FC5410D0094C1CD /* 自定义tabbar中间按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0BED111FC5410D0094C1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0BED231FC5410D0094C1CD /* LaunchScreen.storyboard in Resources */,
+				8F0BED201FC5410D0094C1CD /* Assets.xcassets in Resources */,
+				8F0BED1E1FC5410D0094C1CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0BED291FC5410D0094C1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0BED341FC5410D0094C1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0BED0F1FC5410D0094C1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0BED1B1FC5410D0094C1CD /* ViewController.m in Sources */,
+				8F0BED261FC5410D0094C1CD /* main.m in Sources */,
+				8F0BED181FC5410D0094C1CD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0BED271FC5410D0094C1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0BED301FC5410D0094C1CD /* ___tabbar____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0BED321FC5410D0094C1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0BED3B1FC5410D0094C1CD /* ___tabbar____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0BED2D1FC5410D0094C1CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0BED121FC5410D0094C1CD /* 自定义tabbar中间按钮 */;
+			targetProxy = 8F0BED2C1FC5410D0094C1CD /* PBXContainerItemProxy */;
+		};
+		8F0BED381FC5410D0094C1CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0BED121FC5410D0094C1CD /* 自定义tabbar中间按钮 */;
+			targetProxy = 8F0BED371FC5410D0094C1CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F0BED1C1FC5410D0094C1CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0BED1D1FC5410D0094C1CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F0BED211FC5410D0094C1CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0BED221FC5410D0094C1CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0BED3D1FC5410D0094C1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F0BED3E1FC5410D0094C1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0BED401FC5410D0094C1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = "自定义tabbar中间按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulan.---tabbar----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F0BED411FC5410D0094C1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = "自定义tabbar中间按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulan.---tabbar----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F0BED431FC5410D0094C1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = "自定义tabbar中间按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulan.---tabbar----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义tabbar中间按钮.app/自定义tabbar中间按钮";
+			};
+			name = Debug;
+		};
+		8F0BED441FC5410D0094C1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = "自定义tabbar中间按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulan.---tabbar----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义tabbar中间按钮.app/自定义tabbar中间按钮";
+			};
+			name = Release;
+		};
+		8F0BED461FC5410D0094C1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = "自定义tabbar中间按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulan.---tabbar----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "自定义tabbar中间按钮";
+			};
+			name = Debug;
+		};
+		8F0BED471FC5410D0094C1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = "自定义tabbar中间按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulan.---tabbar----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "自定义tabbar中间按钮";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0BED0E1FC5410D0094C1CD /* Build configuration list for PBXProject "自定义tabbar中间按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0BED3D1FC5410D0094C1CD /* Debug */,
+				8F0BED3E1FC5410D0094C1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0BED3F1FC5410D0094C1CD /* Build configuration list for PBXNativeTarget "自定义tabbar中间按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0BED401FC5410D0094C1CD /* Debug */,
+				8F0BED411FC5410D0094C1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0BED421FC5410D0094C1CD /* Build configuration list for PBXNativeTarget "自定义tabbar中间按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0BED431FC5410D0094C1CD /* Debug */,
+				8F0BED441FC5410D0094C1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0BED451FC5410D0094C1CD /* Build configuration list for PBXNativeTarget "自定义tabbar中间按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0BED461FC5410D0094C1CD /* Debug */,
+				8F0BED471FC5410D0094C1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0BED0B1FC5410D0094C1CD /* Project object */;
+}
